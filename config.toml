@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://andywhittle.dev/"
+baseURL = "https://andywhittle.github.io/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
