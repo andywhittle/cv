@@ -1,0 +1,174 @@
+# Page settings
+
+baseURL = "http://andywhittle.dev/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "Andy Whittle"
+    description = "Senior software developer specialising in golang / ruby"
+    primaryColor = "#3477eb"
+    textPrimaryColor = "#0a0a0a"
+
+    [params.profile]
+        enable = true
+        name = "Andy Whittle"
+        tagline = "Senior Software Engineer"
+        avatar = "me.png"
+
+    [params.contact]
+        enable = true
+        location = "Manchester, UK"
+
+        [[params.contact.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/andywhittle"
+        text = "andywhittle"
+        [[params.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:#"
+        text = "me@andywhittle.dev"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "andywhittle.dev"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+
+        [[params.skills.list.items]]
+        details = "Golang / Ruby / Perl"
+        [[params.skills.list.items]]
+        details = "AWS / Terraform / Docker"
+        [[params.skills.list.items]]
+        details = "PostgreSQL / MySQL"
+        [[params.skills.list.items]]
+        details = "Elastic / Redis / MongoDB"
+        [[params.skills.list.items]]
+        details = "Varnish / HAProxy"
+        [[params.skills.list.items]]
+        details = "TDD / Clean code"
+        [[params.skills.list.items]]
+        details = "Design and implement highly scalable APIs"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc (Hons) Computer Science"
+        university = "University of Bangor, Wales"
+        dates = "2003 - 2006"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Motorcycling"
+
+    [params.summary]
+        enable = true
+        text = "Since I first started tinkering about with QBasic on a BBC Micro, up to present with 13+ years of experience as a professional software developer, my passion for learning, applying and building fantastic software has only grown. I particularly specialise in architecting and delivering highly scalable, performant, cloud based clean code. Focusing predomantly in golang and ruby, I attend user groups and conferences to improve my knowledge and keep up to date, whilst also sharing what knowledge I have gained with others."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2014 - Present"
+        company = "Fatsoma"
+        details = "Starting at this startup early on, I have archeticted important systems crucial to the business; steering both the technical direction and agile process of the company. Over the last couple of years we have consolidated older ruby APIs, to a new golang APIs built around terraform, docker, AWS gateway and ECS. This is in an effort to both reduce operational costs, whilst simplifying the API for both internal and third party integrators, and enabling highly scalable processes autoscalling etc."
+        [[params.experience.list.items]]
+        details = "Archtecting and building complex systems in ruby and golang."
+        [[params.experience.list.items]]
+        details = "Promote the clean code ethos, delivering fast, secure, useful features for our users."
+        [[params.experience.list.items]]
+        details = "Supporting all areas of the business, implementing agile strategies to improve cross department cohesion (sprint planning, retrospecitves, standup / OKRs)."
+        [[params.experience.list.items]]
+        details = "Helped build and support a remote development team."
+        [[params.experience.list.items]]
+        details = "Building the architecture to handle the spikes in traffic consistent with ticketing sites, flood testing to ensure a level of service expected by our clients."
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "2010 - 2014"
+        company = "On the beach"
+        details = "Joining a fast paced young company that grew from strength to strength. This role built on my existing skillset, but improved areas of working closely with a skilled team of other developers, BAs, Testers, DBAs etc. I was involved in several important projects and gained a lot of ruby and team lead experience."
+        [[params.experience.list.items]]
+        details = "Converting existing perl code to ruby, improving search speed across the stack."
+        [[params.experience.list.items]]
+        details = "Championing, and delivering new technology that improved user experience."
+        [[params.experience.list.items]]
+        details = "Support and refactoring existing complex legacy systems, including on call support."
+        [[params.experience.list.items]]
+        details = "Pairing, TDD, and clean code, striving for the best quality code delivered on time and to high standards."
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "2006 - 2010"
+        company = "Accelerate4"
+        details = "Working primarily on our server monitoring solution Assure24, this startup company required aquiring a broad skillset from gaining user requirements, architecting and building new features for clients, on-site / telephone support, and maintaining our dedicated server instrastructure."
+        [[params.experience.list.items]]
+        details = "Writing client monitoring code for varioius systems ranging from windows / linux to obscure unix mainframes (solaris / tru64 / aix). Including more specialised support for printer monitoring and netapp storage devices."
+        [[params.experience.list.items]]
+        details = "Building web portal functionality, configurations for new custom setups, extending existing APIs."
+        [[params.experience.list.items]]
+        details = "Maintaining our server infrastructure, racking up and installation to hands on support replacing broken components."
+        [[params.experience.list.items]]
+        details = "Providing phone and email technical support for several important clients, remote diagnosis and troubleshooting. Occasional on-premise installation and sales meeting attendance was required."
+        [[params.experience.list.items]]
+        details = "On-boarding and buddying new starters, code reviews and general mentoring."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Talks"
+        [[params.information.list.items]]
+        details = "2017 - Manchester golang meetup - Supercharge your testing in golang"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "I'm an avid climber / hiker and enjoy getting out in the countryside as often as possible. I am involved with a few clubs and societies and enjoy teaching others the ropes (quite literally), so as many people as possible can share in my passion for this sport."
