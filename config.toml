@@ -2,7 +2,7 @@
 
 baseURL = "https://andywhittle.github.io/"
 languageCode = "en"
-title = ""
+title = "Andy Whittle"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
