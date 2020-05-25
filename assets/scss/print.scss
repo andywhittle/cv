@@ -1,0 +1,16 @@
+@media print {
+	.resume-wrapper {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	.container {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	.shadow-lg {
+		box-shadow: none!important;
+	}
+	.footer {
+		display: none;
+	}
+}
